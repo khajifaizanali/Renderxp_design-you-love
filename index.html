@@ -14,6 +14,10 @@
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
         <style type="text/css">
+          .total{
+            margin-left:100px;
+            margin-right: 100px;
+          }
     .Navbar {
   background-color:  #ffffff;
   display: flex;
@@ -49,6 +53,10 @@ a:hover{
 }
 
 @media only screen and (max-width: 768px) {
+   .total{
+            margin-left:0px;
+            margin-right: 0px;
+          }
   .Navbar__Items,
   .Navbar {
     flex-direction: column;
@@ -197,7 +205,7 @@ background-color:  #ffff00;
 document.querySelector('.Navbar__Link-toggle')
   .addEventListener('click', classToggle);
 </script>
-
+<div class="total">
    <div class="row">
     <a href="add.html">
   <div class="column">
@@ -221,5 +229,7 @@ document.querySelector('.Navbar__Link-toggle')
    </div> 
 </a>
   </div>
+
+</div>
     </body> 
 </html>
